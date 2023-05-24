@@ -1,0 +1,22 @@
+{
+  "name": "prisma-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.14.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  } 
+}
